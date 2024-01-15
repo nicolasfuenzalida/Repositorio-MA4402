@@ -1,0 +1,3 @@
+https://github.com/adrian-arellano/CalculoDeEstrategiasGanadorasMedianteSimulaciones
+
+python -m notebook
