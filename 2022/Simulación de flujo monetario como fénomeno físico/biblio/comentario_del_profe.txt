@@ -1,0 +1,9 @@
+Esitmados.
+En la propuesta , por favor dar el año de la referencia.
+Sobre el tema: es interesante y pienso que hacible. Sin embargo , podria ser un poco complicado implementar los modelos de intercambio de riqueza. Asegurense por favor que entienden como se hace (debe haber una cadena de markov, en un conjunto grande que debe representar a cada agente y su riqueza, y la medida de Gibbs seria la de equilibiro? confirmar esto). Hay algun benchmark en el sentido que para algunos casos se espera que la medida de Gibbs tenga cierta forma explicita, y uno puede mostar que las simulaciones de agentes da eso (para muchos agentes, y tiempo largo?).  
+
+Un ultimo comentario:  el paper es fisico pero hay bastante gente que ha estudiado esos modelos despues mas matematicamente (yo incluido, jaja) . Si tuvieran algunas dudas sobre como hacer la simulacion, quizas pueden encontar papers un poco mas matematicos que citen a ese paper, donde se explique un poco mas claramente en que consiste la cadena de Markov para efectos de poder simularlo.  
+Este quizas sirve un poco en ese sentido : https://arxiv.org/pdf/1609.08978.pdf 
+cualquier duda, consulten
+
+saludos
