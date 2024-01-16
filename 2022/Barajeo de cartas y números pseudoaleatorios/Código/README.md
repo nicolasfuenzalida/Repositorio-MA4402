@@ -1,3 +1,4 @@
+Temas: Markov Chain Monte Carlo/otros
 # Fenómenos de Cutoff en Cadenas de Markov
 Bajo ciertas condiciones, toda cadena de Markov tiene una distribución invariante a la que converge a medida que la cadena evoluciona. Muchos modelos, entre ellos MCMC, dependen de la rapidez de convergencia de la cadena y de la seguridad con que esta está cerca de su medida invariante.
 
