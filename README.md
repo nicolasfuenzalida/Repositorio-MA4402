@@ -1,2 +1,2 @@
 # Repositorio-MA4402
-Repositorio de los proyectos finales del curso durante los últimos tres años.
+Repositorio de los proyectos finales del curso Simulación Estocástica: Teoría y Laboratorio.
