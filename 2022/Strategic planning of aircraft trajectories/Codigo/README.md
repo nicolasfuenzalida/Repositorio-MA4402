@@ -1,4 +1,5 @@
-# Proyecto-Simulaci-n-Estoc-stica
+Tema: Simulated Annealing
+# Proyecto-Simulacion-Estocastica
 Simmulated annealing para planificación de trayectorias aéreas
 
 En la carpeta Bibliografía se encuentra el libro donde se presenta el modelo en el cual se basa el proyecto
