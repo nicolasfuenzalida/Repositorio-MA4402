@@ -6,6 +6,8 @@ Este proyecto consiste en crear un motor de ajedrez basado en una red neuronal c
 Los archivos principales del proyecto son:
 
 # Dataset
+(observacion, para ejecutar Dataset.ipynb hay que descargar Stockfish en la pagina https://stockfishchess.org/download/, descomprimirlo y moverlo 
+a la misma carpeta del codigo)
 En este notebook se creó el dataset de entrenamiento, el cual se encuentra comprimido en el archivo Dataset_Entrenamiento.rar.
 
 El dataset de entrenamiento consiste en aproximadamente 400000 posiciones de 5000 partidas descargadas de https://lichess.org/ con evaluaciones de StockFish como etiquetas.
