@@ -1,0 +1,107 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import math
+import random
+
+
+def diamond_square_algorithm(size, roughness):
+    terrain = np.zeros((size, size), dtype=float)
+    terrain[0, 0] = random.uniform(0, 1)
+    terrain[0, size - 1] = random.uniform(0, 1)
+    terrain[size - 1, 0] = random.uniform(0, 1)
+    terrain[size - 1, size - 1] = random.uniform(0, 1)
+
+    step_size = size - 1
+    scale = roughness
+
+    while step_size > 1:
+        half_step = step_size // 2
+
+        # Diamond step
+        for x in range(0, size - 1, step_size):
+            for y in range(0, size - 1, step_size):
+                average = (terrain[x, y] + terrain[x + step_size, y] + terrain[x,
+                           y + step_size] + terrain[x + step_size, y + step_size]) / 4.0
+                terrain[x + half_step, y + half_step] = average + \
+                    random.uniform(-scale, scale)
+
+        # Square step
+        for x in range(0, size - 1, half_step):
+            for y in range((x + half_step) % step_size, size - 1, step_size):
+                average = (
+                    terrain[(x - half_step + size) % size, y] +
+                    terrain[(x + half_step) % size, y] +
+                    terrain[x, (y - half_step + size) % size] +
+                    terrain[x, (y + half_step) % size]
+                ) / 4.0
+                terrain[x, y] = average + random.uniform(-scale, scale)
+
+        step_size = half_step
+        scale *= roughness
+
+    return terrain
+
+
+def simulated_annealing(terrain, iterations, initial_temperature, cooling_rate):
+    size = terrain.shape[0]
+    temperature = initial_temperature
+    cool = cooling_rate
+
+    for _ in range(iterations):
+        x, y = random.randint(0, size - 1), random.randint(0, size - 1)
+        current_energy = calculate_energy(terrain)
+
+        # Magnitud aleatoria de la perturbación
+        perturbation = random.uniform(-0.5, 0.5) * random.uniform(0, 1)
+        perturbed_terrain = np.copy(terrain)
+        perturbed_terrain[x, y] += perturbation
+
+        new_energy = calculate_energy(perturbed_terrain)
+
+        if new_energy < current_energy or random.random() < math.exp((current_energy - new_energy) / temperature):
+            terrain = perturbed_terrain
+
+        temperature *= cooling_rate  # Enfriar la temperatura gradualmente
+
+    return terrain
+
+
+def calculate_energy(terrain):
+    energy = np.sum(np.abs(np.roll(terrain, 1, axis=0) - terrain))
+    energy += np.sum(np.abs(np.roll(terrain, 1, axis=1) - terrain))
+    return energy
+
+
+def plot_2d_terrain(ax, terrain, title):
+    im = ax.imshow(terrain, cmap='terrain', interpolation='bilinear')
+    ax.set_title(title)
+    return im
+
+
+if __name__ == "__main__":
+
+    size = 129
+    roughness = 0.5
+    diamond_square_iterations = int(math.log2(size - 1))
+    simulated_annealing_iterations = 5000
+    initial_temperature = 10.0
+    cooling_rate = 0.9
+
+    # Generar el terreno inicial con Diamond-Square
+    initial_terrain = diamond_square_algorithm(size, roughness)
+
+    # Aplicar Simulated Annealing para refinar el terreno
+    refined_terrain = simulated_annealing(
+        initial_terrain, simulated_annealing_iterations, initial_temperature, cooling_rate)
+
+    # Graficar ambos terrenos al mismo tiempo
+    fig, axs = plt.subplots(1, 2, figsize=(10, 5))
+
+    im1 = plot_2d_terrain(axs[0], initial_terrain, "Initial Terrain")
+    im2 = plot_2d_terrain(axs[1], refined_terrain, "Refined Terrain")
+
+    # Añadir una barra de color común para ambos subgráficos
+    cbar = fig.colorbar(im2, ax=axs, orientation='vertical',
+                        fraction=0.05, pad=0.05)
+
+    plt.show()

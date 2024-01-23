@@ -1,0 +1,167 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import noise
+from mpl_toolkits.mplot3d.art3d import Poly3DCollection
+import matplotlib.pyplot as plt
+import scipy as sp
+import scipy.ndimage
+from PIL import Image
+# from arrows3dplot import * # python_file in project with class
+import matplotlib.cm as cm
+import math
+import random
+
+
+def generate_initial_state(size):
+    return np.random.rand(size, size)
+
+
+def calculate_energy(matrix):
+    # Puedes definir tu propia función de energía aquí.
+    # como input considera un terreno, ie una matriz de numeros entre -1 y 1
+    rows, cols = matrix.shape
+    all_cells = [(i, j) for i in range(rows) for j in range(cols)]
+    inner_cells = [(i, j) for i in range(1, rows - 1)
+                   for j in range(1, cols - 1)]
+
+    # se implementa una penalización de elevación para evitar tener picos muy altos
+    elevation_penalty = sum(abs(matrix[i, j] - matrix[i + 1, j])
+                            + abs(matrix[i, j] - matrix[i, j + 1]) /
+                            + abs(matrix[i, j] - matrix[i, j - 1]) /
+                            + abs(matrix[i, j] - matrix[i+1, j + 1]) /
+                            + abs(matrix[i, j] - matrix[i+1, j - 1]) /
+                            + abs(matrix[i, j] - matrix[i-1, j - 1]) /
+                            + abs(matrix[i, j] - matrix[i-1, j]) /
+                            + abs(matrix[i, j] - matrix[i-1, j + 1]) for i, j in inner_cells)
+
+    gradient_x, gradient_y = np.gradient(matrix)
+    total_gradient = np.sqrt(gradient_x**2 + gradient_y**2)
+
+    # se implementa una recompensa a la suavidad del terreno:
+    # smoothness_penalty = sum(abs(matrix[i, j] - 2 * matrix[i + 1, j] + matrix[i + 1, j]) + abs(matrix[i, j] - 2 * matrix[i, j + 1] + matrix[i, j + 1]) for i, j in inner_cells)
+
+    # se implementa una cohesión con respecto a los vecinos de la matrix:
+    # cohesion_penalty = sum(abs(matrix[i, j] - matrix[i + 1, j + 1]) + abs(matrix[i, j + 1] - matrix[i + 1, j]) for i, j in inner_cells)
+
+    # incentiva máximizar los rangos de elevación posible
+    elevation_range_penalty = max(matrix.flatten()) - min(matrix.flatten())
+
+    energy = elevation_penalty - \
+        elevation_range_penalty + np.mean(total_gradient)
+    return energy
+
+
+def generate_neighbor(state, temperature):
+    # Genera un vecino cambiando aleatoriamente algunos puntos del terreno.
+    neighbor = state.copy()
+    num_changes = int(temperature * state.size)
+    for _ in range(num_changes):
+        x, y = np.random.randint(
+            0, state.shape[0]), np.random.randint(0, state.shape[1])
+        neighbor[x, y] += np.random.normal(0, temperature)
+    return neighbor
+
+
+def simulated_annealing(initial_state, max_iterations, cooling_rate):
+    current_state = initial_state
+    current_energy = calculate_energy(current_state)
+
+    for iteration in range(max_iterations):
+        temperature = max(1e-6, 1.0 - cooling_rate * iteration)
+        neighbor_state = generate_neighbor(current_state, temperature)
+        neighbor_energy = calculate_energy(neighbor_state)
+
+        # Acepta el nuevo estado con una probabilidad dada por la diferencia de energía y la temperatura.
+        if neighbor_energy < current_energy or random.uniform(0, 1) < math.exp((current_energy - neighbor_energy) / temperature):
+            current_state = neighbor_state
+            current_energy = neighbor_energy
+
+        if iteration % 100 == 0:
+            print(f"Iteration {iteration}, Energy: {current_energy}")
+
+    return current_state
+
+
+def ploteo3d(terrain, size):
+
+    # Set max number of pixel to: 'None' to prevent errors. Its not nice, but works for that case. Big images will load RAM+CPU heavily (like DecompressionBomb)
+    # Image.MAX_IMAGE_PIXELS = None # first we set no limit to open
+    # img = Image.open(source_file_dem)
+
+    # get aspect ratio of tif file for late plot box-plot-ratio
+    y_ratio, x_ratio = size, size
+
+    # open georeference TIF file
+
+    # create arrays and declare x,y,z variables
+    lin_x = np.linspace(0, 1, terrain.shape[0], endpoint=False)
+    lin_y = np.linspace(0, 1, terrain.shape[1], endpoint=False)
+    y, x = np.meshgrid(lin_y, lin_x)
+
+    z = terrain
+
+    # Apply gaussian filter, with sigmas as variables. Higher sigma = more smoothing and more calculations. Downside: min and max values do change due to smoothing
+    sigma_y = 1
+    sigma_x = 1
+    sigma = [sigma_y, sigma_x]
+    z_smoothed = sp.ndimage.gaussian_filter(z, sigma)
+
+    # Some min and max and range values coming from gaussian_filter calculations
+    z_smoothed_min = np.amin(z_smoothed)
+    z_smoothed_max = np.amax(z_smoothed)
+    z_range = z_smoothed_max - z_smoothed_min
+
+    # Creating figure
+    fig = plt.figure(figsize=(12, 10))
+    ax = plt.axes(projection='3d')
+    ax.azim = -30
+    ax.elev = 0
+    # ax.arrow3D(1,1,z_smoothed_max, -1,0,1, mutation_scale=20, ec ='black', fc='red') #draw arrow to "north" which is not correct north. But with georeferenced sources it should work
+    surf = ax.plot_surface(x, y, z_smoothed, cmap='terrain', edgecolor='none')
+    # setting colors for colorbar range
+    m = cm.ScalarMappable(cmap=surf.cmap, norm=surf.norm)
+    m.set_array(z_smoothed)
+    # cbar = fig.colorbar(m, shrink=0.5, aspect=20, ticks=[z_smoothed_min, 0, (z_range*0.25+z_smoothed_min), (z_range*0.5+z_smoothed_min), (z_range*0.75+z_smoothed_min), z_smoothed_max])
+    # cbar.ax.set_yticklabels([f'{z_smoothed_min}', ' ',  f'{(z_range*0.25+z_smoothed_min)}', f'{(z_range*0.5+z_smoothed_min)}', f'{(z_range*0.75+z_smoothed_min)}', f'{z_smoothed_max}'])
+    # plt.xticks([])  # disabling xticks by Setting xticks to an empty list
+    # plt.yticks([])  # disabling yticks by setting yticks to an empty list
+    # draw flat rectangle at z = 0 to indicate where mean sea level is in 3d
+    # x_rectangle = [0,1,1,0]
+    # y_rectangle = [0,0,1,1]
+    # z_rectangle = [0,0,0,0]
+    # verts = [list(zip(x_rectangle,y_rectangle,z_rectangle))]
+    # ax.add_collection3d(Poly3DCollection(verts, alpha=0.5))
+    ax.set_xlabel('X Axis')
+    ax.set_ylabel('Y Axis')
+    fig.tight_layout()
+
+
+if __name__ == "__main__":
+    # Parámetros
+    terrain_size = 30
+    initial_temperature = 1.0
+    max_iterations = 5000
+    cooling_rate = 0.001
+
+    # Funciona rico:
+    #  terrain_size = 100
+    #  initial_temperature = 1.0
+    #  max_iterations = 5000
+    #  cooling_rate = 0.001
+
+    # Genera estado inicial y aplica Simulated Annealing
+    initial_state = generate_initial_state(terrain_size)
+    final_state = simulated_annealing(
+        initial_state, max_iterations, cooling_rate)
+
+    # Visualización del terreno inicial
+    plt.subplot(1, 2, 1)
+    plt.imshow(initial_state, cmap='terrain', interpolation='bilinear')
+    plt.title('Terreno Inicial')
+
+    # Visualización del terreno final
+    plt.subplot(1, 2, 2)
+    plt.imshow(final_state, cmap='terrain', interpolation='bilinear')
+    plt.title('Simulated Annealing Terrain')
+    ploteo3d(final_state, terrain_size)
+    plt.show()
