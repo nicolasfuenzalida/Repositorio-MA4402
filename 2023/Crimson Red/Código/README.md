@@ -1,3 +1,6 @@
+Observacion: para ejecutar los codigos correctamente hay que descargar Stockfish en la pagina https://stockfishchess.org/download/, descomprimirlo y moverlo 
+a la misma carpeta del codigo. 
+
 # Crimson-Red
 Proyecto del curso Simulación Estocástica
 
@@ -6,8 +9,6 @@ Este proyecto consiste en crear un motor de ajedrez basado en una red neuronal c
 Los archivos principales del proyecto son:
 
 # Dataset
-Observacion: para ejecutar Dataset.ipynb hay que descargar Stockfish en la pagina https://stockfishchess.org/download/, descomprimirlo y moverlo 
-a la misma carpeta del codigo. 
 
 En este notebook se creó el dataset de entrenamiento, el cual se encuentra comprimido en el archivo Dataset_Entrenamiento.rar.
 
