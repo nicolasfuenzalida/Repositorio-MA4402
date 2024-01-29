@@ -8,7 +8,7 @@ Rocío Yáñez
 
 ## Tema principal:
 
-Algoritmo de gradiente estocástico/Deep Learning.
+Algoritmos estocásticos en aprendizaje de máquinas: Algoritmo de gradiente estocástico (SGD)
 
 ## Resumen:
 
