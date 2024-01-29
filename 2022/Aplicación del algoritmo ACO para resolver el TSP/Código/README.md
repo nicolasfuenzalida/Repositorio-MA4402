@@ -1,4 +1,3 @@
-Tema: Algoritmos estocasticos/otros
 # Proyecto-MA4402
 proyecto final en donde se implementará ACO para resolver de manera eficiente el TSP
 
