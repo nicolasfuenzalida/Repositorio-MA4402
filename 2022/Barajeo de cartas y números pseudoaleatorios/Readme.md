@@ -28,5 +28,3 @@ pnas.93.4.1659
 
 [2] C. Lancia. ((Looking through the cutoff window)). Te-
 sis doct. Technische Universiteit Eindhoven, 2013.
-
-[3]
