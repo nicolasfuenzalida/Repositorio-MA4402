@@ -1,5 +1,3 @@
-Temas: Markov Chain Monte Carlo/Inferencia Bayesiana
-
 # Modelo epidemiológico con particle MCMC
 ## MA4402 Simulación Estocástica: Teoría y Laboratorio.
 ### Profesor: Joaquín Fontbona.
