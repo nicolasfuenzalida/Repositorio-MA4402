@@ -16,5 +16,7 @@ El presente proyecto propone dos modelos de seguimiento de la opinión pública 
 ## Referencias:
 
 [1] Bunker, Kenneth; Bauchowitz, Stefan(2016).Electoral Forecasting and Public Opinion Tracking in Latin America: An Application to Chile Política
+
 [2] Stoltenberg, Emil (2013). Bayesian Forecasting of Election Results in Multiparty Systems. Master’s thesis University of Oslo
+
 [3] Tres Quintos. http://www.tresquintos.cl
