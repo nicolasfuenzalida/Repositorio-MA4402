@@ -17,7 +17,7 @@ encontrar una función x : V → C tal que no hayan dos nodos adyacentes con el 
 plantearse como un problema de minimización sobre H(x) = ∑u∼v 1xu=xv , donde la configuración x será
 solución al problema de coloreo si y sólo si H(x) = 0.
 Es de particular interés encontrar soluciones donde se minimice el tamaño de C. Es posible acotar el
-número cromático por ∆(G) + 1, donde ∆(G) es el grado mayor en el grafo
+número cromático por ∆(G) + 1, donde ∆(G) es el grado mayor en el grafo.
 
 ## Referencias:
 
