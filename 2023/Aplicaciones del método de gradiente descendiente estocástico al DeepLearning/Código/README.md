@@ -8,19 +8,19 @@ Rocío Yáñez
 
 ## Tema principal:
 
-Algoritmo de gradiente estocástico/Deep Learning
+Algoritmo de gradiente estocástico/Deep Learning.
 
 ## Resumen:
 
-El objetivo de esta investigación es entregar un predic
-tor del rendimiento de estudiantes en la prueba específi
-ca de matemáticas. Para ello, se trabajó con una base de
+El objetivo de esta investigación es entregar un predictor del rendimiento de estudiantes 
+en la prueba específica de matemáticas. Para ello,
+se trabajó con una base de
 datos que contenía los resultados en todas las pruebas y
 características sociodemográficas de los estudiantes de la
 promoción. Mas particularmente, se comparo el algoritmo de
 SGD (sthocastic gradient descent) con ADAM. Este ultimo
 consiste principalmente en dos componentes: descenso de 
-gradiente de minibatch y programas de tasa de aprendizaje
+gradiente de minibatch y programas de tasa de aprendizaje.
 
 ## Referencias:
 
