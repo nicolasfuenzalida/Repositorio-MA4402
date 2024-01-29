@@ -26,16 +26,11 @@ que aproxime la solucion del problema.
 ## Referencias:
 
 [1] Kurt Hornik, Maxwell Stinchcombe, and
-Halber White. MultilayerFeedforward Net-
-worksare Universal Approximators. Neural
+Halber White. MultilayerFeedforward Networksare Universal Approximators. Neural
 Networks, Vol2, pp.359-366,1989.
 
-[2] Phillipp Grohs, and Gitta Kutyniok. Mat-
-hematical aspects of deep learning. Cam-
-bridge University Press, 2023.
+[2] Phillipp Grohs, and Gitta Kutyniok. Mathematical aspects of deep learning. Cam-bridge University Press, 2023.
 
-[3] Apuntes Curso MA5606-1: Tópicos Mate-
-máticos en Aprendizaje de Máquinas, Re-
-des Neuronales y Aprendizaje Profundo.
+[3] Apuntes Curso MA5606-1: Tópicos Matemáticos en Aprendizaje de Máquinas, Redes Neuronales y Aprendizaje Profundo.
 Profesores Joaquín Fontbona y Claudio
 Muñoz, 2023.
