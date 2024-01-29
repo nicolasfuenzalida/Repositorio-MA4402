@@ -12,7 +12,7 @@ Aplicación de MCMC: simulated annealing
 
 ## Resumen:
 
-En este proyecto se analizo la bibliografía del Capacitated Facility Location Problem, y se aplicó el método estudiado, que usa simmulated annealing, para estudiar la localización óptima de plantas de reciclaje de metal intermediarias en la región Metropolitana de Santiago, en Chile.
+En este proyecto se analizó la bibliografía del Capacitated Facility Location Problem, y se aplicó el método estudiado, que usa simmulated annealing, para estudiar la localización óptima de plantas de reciclaje de metal intermediarias en la región Metropolitana de Santiago, en Chile.
 
 En el estudio bibliográfico del CFLP, se encontró una implementación diseñada e implementada por Macarena Muñoz basada en Simulated Annealing para resolver el problema de optimización de la localización de depósitos de Biomasa, además de abordar el problema de ruteo de camiones con límites de capacidad, en la región de O’Higgins. En el proyecto final, se decidió aplicar dicha implementación en el contexto del reciclaje de metales en la Región Metropolitana. El objetivo principal de este proyecto es minimizar el costo total de la recolección de materiales de reciclaje.
 
