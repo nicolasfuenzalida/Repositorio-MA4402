@@ -8,7 +8,7 @@ Jonathan Ocampo
 
 ## Tema principal:
 
-Tema principal proyecto
+Machine Learning/Aprendizaje reforzado
 
 ## Resumen:
 
