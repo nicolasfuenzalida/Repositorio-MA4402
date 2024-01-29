@@ -8,7 +8,7 @@ Benjamin Mitchell
 
 ## Tema principal:
 
-Simulated Annealing
+Aplicación de MCMC: Simulated Annealing
 
 ## Resumen:
 
