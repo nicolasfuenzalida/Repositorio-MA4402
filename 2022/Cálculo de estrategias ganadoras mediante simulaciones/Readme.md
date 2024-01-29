@@ -19,7 +19,7 @@ En estos juegos, una manera de afrontar el problema
 de hallar una estrategia ganadora, es: encontrar los estados del tablero para los cuales algun jugador gana o
 termina (hojas), evaluar quien gana, y asignarles una
 utilidad. En este caso, una estrategia ganadora requiere evaluar todos los estados hojas, sin embargo, este
-calculo se vuelve muy costoso por la gran cantidad deestados posibles.
+calculo se vuelve muy costoso por la gran cantidad de estados posibles.
 
 ## Referencias:
 
