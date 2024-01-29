@@ -12,8 +12,8 @@ Algoritmo de gradiente estocástico/Deep Learning
 
 ## Resumen:
 
-El objetivo de esta investigación es entregar un predic-
-tor del rendimiento de estudiantes en la prueba específi-
+El objetivo de esta investigación es entregar un predic
+tor del rendimiento de estudiantes en la prueba específi
 ca de matemáticas. Para ello, se trabajó con una base de
 datos que contenía los resultados en todas las pruebas y
 características sociodemográficas de los estudiantes de la
