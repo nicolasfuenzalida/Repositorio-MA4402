@@ -2,7 +2,7 @@
 
 ## Integrantes:
 
-Melanie Sánchez Pfeier
+Melanie Sánchez Pfeiffer
 
 ## Tema principal:
 
