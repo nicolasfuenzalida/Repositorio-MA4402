@@ -14,7 +14,7 @@ Aplicación de MCMC: Simulated Annealing
 
 En la criptografia clasica, el cifrado por sustitucion
 simple consiste en codificar un mensaje reemplazando
-un simbolo el alfabeto usual por otro,
+un simbolo del alfabeto usual por otro,
 siguiendo una clave que determina el mapeo entre
 un alfabeto y otro. Restringiendose al alfabeto la-
 tino, las claves de sustitucion simple consisten en
