@@ -16,6 +16,9 @@ La ecuación de FKPP es una variación no-lineal de la ecuación de calor y corr
 ## Referencias:
 
 [1] Chorin, A., Hald, H. (2013). Stochastic Tools in Mathematics and Science (3rd ed.). Springer.
+
 [2] Brunet, E. (2016). Some aspects of the FisherKPP equation and the branching Brownian motion.
+
 [3] Ma, W. X., Fuchssteiner, B. (1996). Explicit and exact solutions to a Kolmogorov-PetrovskiiPiskunov equation. Int. J. Non-Linear Mechanics, Vol. 31, No. 3, pp. 329-338.
+
 [4] Moon, B., Dai, Y., Kota, T. (2022). A Majority Voting Model on Branching Brownian Motion.
