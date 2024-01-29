@@ -17,6 +17,7 @@ Este proyecto se centra en la creación de modelos de clasificación, ajustando 
 A diferencia de otros maneras para ajustar árboles, este método utiliza dos ejes principales:
 - Se especifica una distribución a priori.
 - Se realiza una búsqueda estocástica para encontrar el posteriori.
+
 La distribución a priori de un árbol se obtiene identificando los nodos terminales y los nodos interiores, a los cuales se les asigna una probabilidad dependiendo de su altura y si estos fueron divididos o no, la probabilidad es la multiplicación de todos estos términos.
 
 ## Referencias:
