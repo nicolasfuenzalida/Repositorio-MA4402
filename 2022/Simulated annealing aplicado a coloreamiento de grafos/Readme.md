@@ -18,6 +18,6 @@ El problema del coloreamiento de un grafo consiste en encontrar la coloración p
 
 [1] Köse, A., Aral, B., Balaban, M. Simulated Annealing Algorithm for Graph Coloring.
 
-[2] Lewis, R.(2016).A guide to graph colouring. Springer.
+[2] Lewis, R.(2016). A guide to graph colouring. Springer.
 
 [3]  Implementación de Tabu Search. https://github.com/MaciejPel/graphcoloring/blob/main/graph coloring.py
