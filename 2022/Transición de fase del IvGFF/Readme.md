@@ -18,7 +18,7 @@ que en el caso de Ising en este modelo existe una transición de fase del primer
 
 ## Referencias:
 
-[1] ] Hans-Otto Georgi, Gibbs measure and phase transition, sección 6.3
+[1] Hans-Otto Georgi, Gibbs measure and phase transition, sección 6.3
 
 [2] Friedi Velenik, Statiscal mechanics of lattice systems. A concrete mathematical introduction, capítulo 1 pags 34 - 46.
 
