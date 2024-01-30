@@ -1,4 +1,4 @@
-# Simmulated annealing para planificación de trayectorias aéreas
+# Simulated annealing para planificación de trayectorias aéreas
 
 ## Integrantes:
 
