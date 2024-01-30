@@ -17,7 +17,7 @@ en la prueba específica de matemáticas. Para ello,
 se trabajó con una base de
 datos que contenía los resultados en todas las pruebas y
 características sociodemográficas de los estudiantes de la
-promoción. Mas particularmente, se comparo el algoritmo de
+promoción. Mas particularmente, se comparo el predictor del algoritmo de
 SGD (sthocastic gradient descent) con ADAM. Este ultimo
 consiste principalmente en dos componentes: descenso de 
 gradiente de minibatch y programas de tasa de aprendizaje.
