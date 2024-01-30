@@ -1,4 +1,4 @@
-# Simmulated annealing para la detección de rutas de contrabando
+# Simulated annealing para la detección de rutas de contrabando
 
 ## Integrantes:
 
