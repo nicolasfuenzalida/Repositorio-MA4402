@@ -8,7 +8,7 @@ Daniel Minaya
 
 ## Tema principal:
 
-Simulación de cadenas de Markov
+Simulación de cadenas de Markov/Metropolis-Hasting
 
 ## Resumen:
 
