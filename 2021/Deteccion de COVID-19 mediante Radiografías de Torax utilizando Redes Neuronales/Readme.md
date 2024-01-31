@@ -29,5 +29,4 @@ por COVID-19.
 
 [2] TechniquesImagingData doi:10.1109/rbme.2020.2987975
 
-[3] Página de base de datos. https://www.kaggle.com/c/siim-
-covid19-detection
+[3] Página de base de datos. https://www.kaggle.com/c/siim-covid19-detection
