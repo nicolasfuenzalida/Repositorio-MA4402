@@ -31,4 +31,4 @@ en el modelo de Ising.
 Denoising . http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.294.8106&rep=rep1&type=pdf
 
 [2] Smolyakov, V (2017). Variational Inference: Ising
-Model. GitHub. https://github.com/vsmolyakov/experiments with python/blob/master/chp02/mean field mrf.ipynb
+Model. GitHub. https://github.com/vsmolyakov/experiments_with_python/blob/master/chp02/mean_field_mrf.ipynb
