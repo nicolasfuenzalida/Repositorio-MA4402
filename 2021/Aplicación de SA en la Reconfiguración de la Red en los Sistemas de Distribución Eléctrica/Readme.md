@@ -31,7 +31,6 @@ las perdidas.
 
 ## Referencias:
 
-[1] Tung, L.; Thanh, T.; Thuong, C.; Viet, A. Appli-
-cations of Simulated Annealing-Based Approaches
+[1] Tung, L.; Thanh, T.; Thuong, C.; Viet, A. Applications of Simulated Annealing-Based Approaches
 to Network Reconfiguration in Distribution Sys-
 tems, Vietnam.
