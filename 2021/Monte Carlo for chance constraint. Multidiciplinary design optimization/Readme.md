@@ -32,8 +32,7 @@ son llamadas variables de estados. El nivel de probabilidad es α = 0.9987. El o
 implementando los métodos de Monte-Carlo para trabajar las restricciones probabilísticas.
 ## Referencias:
 
-[1]
+[1] Chiralaksanakul, A., & Mahadevan, S. (2007). Decoupled approach to multidisciplinary design optimization under uncertainty. Optimi-
+zation and Engineering, 8(1).
 
-[2] 
-
-[3]
+[2] Cools, R. Advances in multidimensional integration. Journal of computational and applied mathematics 149, 1 (2002).
