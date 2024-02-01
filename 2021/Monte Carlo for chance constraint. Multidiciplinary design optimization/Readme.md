@@ -13,9 +13,10 @@ Metodos de Monte Carlo
 ## Resumen:
 
 Resumen: Estudiaremos problemas de optimización del siguiente estilo:
-(1)
-min −x2
-s.a. h~1(x, ξ, u, v) = ξ2x1 + 2x2 − u + v = 0
+
+(1) min −x2
+
+s.a. h1(x, ξ, u, v) = ξ2x1 + 2x2 − u + v = 0
 
 h2(x, ξ, u, v) = 3x1 − u − v = 0
 
