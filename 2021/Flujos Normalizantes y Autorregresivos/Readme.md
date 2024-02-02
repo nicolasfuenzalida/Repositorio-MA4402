@@ -8,7 +8,7 @@ A. Wortsman
 
 ## Tema principal:
 
-Otros
+Algoritmos estocasticos/otros
 
 ## Resumen:
 
