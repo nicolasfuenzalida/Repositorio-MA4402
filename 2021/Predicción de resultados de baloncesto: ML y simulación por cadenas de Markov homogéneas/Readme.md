@@ -2,9 +2,9 @@
 
 ## Integrantes:
 
-Félix Brokering
+Félix Brokering.
 
-Vicente Maturana
+Vicente Maturana.
 
 ## Tema principal:
 
