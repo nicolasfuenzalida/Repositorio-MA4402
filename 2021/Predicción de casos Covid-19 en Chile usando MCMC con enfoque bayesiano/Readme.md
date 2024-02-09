@@ -12,7 +12,7 @@ Metropolis-Hasting
 
 ## Resumen:
 
-resumen
+En este trabajo, se empleará la inferencia de parámetros bayesianos mediante métodos de Markov Chain Monte Carlo (MCMC) en el modelo epidemiológico Susceptible-Infectado-Recuperado (SIR), con el propósito de comparar las predicciones con los datos originales en Chile. El modelo SIR divide la población en tres conjuntos disjuntos y se representa como una cadena de Markov con tres estados, con tasas de contagio ($\lambda$) y de recuperación ($\mu$). El objetivo es aproximar estas tasas y predecir el comportamiento futuro de la pandemia. Se utiliza un enfoque bayesiano, donde la función de verosimilitud y las distribuciones a priori de los parámetros son clave. Se emplea el método MCMC para aproximar las distribuciones de los parámetros y obtener estimaciones. Se utilizan datos del Ministerio de Salud, incluyendo la población total, contagios diarios y casos recuperados, durante seis meses desde abril de 2020. Se realizarán comparaciones entre las aproximaciones y datos reales para validar el modelo y sacar conclusiones.
 
 ## Referencias:
 
