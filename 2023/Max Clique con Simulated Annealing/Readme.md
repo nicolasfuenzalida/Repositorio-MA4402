@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Matías Jara
+Matías Jara.
 
-Vicente Sandoval
+Vicente Sandoval.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
