@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Diego Dominguez
+Diego Dominguez.
 
-Sebastian Rojas
+Sebastian Rojas.
 
 ## Tema principal:
 
-MCMC y estadística Bayesiana
+MCMC y estadística Bayesiana.
 
 ## Resumen:
 
