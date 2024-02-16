@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Andrés Olivares
+Andrés Olivares.
 
-Isidora Reyes
+Isidora Reyes.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
