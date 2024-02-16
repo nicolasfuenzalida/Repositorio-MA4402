@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Felipe Latorre Naranjo
+Felipe Latorre Naranjo.
 
-Jorge Sepúlveda Ruz
+Jorge Sepúlveda Ruz.
 
 ## Tema principal:
 
-Ecuaciones Diferenciales Estocásticas
+Ecuaciones Diferenciales Estocásticas.
 
 ## Resumen:
 
