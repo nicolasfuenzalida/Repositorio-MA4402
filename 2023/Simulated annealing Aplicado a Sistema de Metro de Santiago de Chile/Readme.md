@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Allen Arroyo
+Allen Arroyo.
 
-Isidora Miranda
+Isidora Miranda.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
