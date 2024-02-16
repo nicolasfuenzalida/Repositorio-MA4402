@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Luis Plaza Busto
+Luis Plaza Busto.
 
-Felipe Espinoza Vergara
+Felipe Espinoza Vergara.
 
 ## Tema principal:
 
-Metropolis-Hasting
+Metropolis-Hasting.
 
 ## Resumen:
 
