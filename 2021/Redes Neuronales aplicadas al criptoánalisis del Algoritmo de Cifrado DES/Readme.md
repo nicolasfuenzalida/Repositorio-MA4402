@@ -1,4 +1,4 @@
-# Redes Neuronales aplicadas al criptánalisis del Algoritmo de Cifrado DES
+# Redes Neuronales aplicadas al criptoánalisis del Algoritmo de Cifrado DES
 
 ## Integrantes:
 
