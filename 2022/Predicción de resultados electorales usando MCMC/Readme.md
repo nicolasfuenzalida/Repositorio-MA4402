@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Alonso Rojas
+Alonso Rojas.
 
-Tiare Letelier
+Tiare Letelier.
 
 ## Tema principal:
 
-MCMC y estadística Bayesiana
+MCMC y estadística Bayesiana.
 
 ## Resumen:
 
