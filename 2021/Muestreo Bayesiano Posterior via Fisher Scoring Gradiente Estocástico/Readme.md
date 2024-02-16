@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Branco Paineman
+Branco Paineman.
 
-Vicente Cabezas
+Vicente Cabezas.
 
 ## Tema principal:
 
-Algoritmo de gradiente estocástico (SGD)
+Algoritmo de gradiente estocástico (SGD).
 
 ## Resumen:
 
