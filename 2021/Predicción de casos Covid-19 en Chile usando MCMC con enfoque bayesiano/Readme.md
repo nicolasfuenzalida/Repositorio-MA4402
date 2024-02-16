@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Tomás Laengle
+Tomás Laengle.
 
-Sebastián Tapia
+Sebastián Tapia.
 
 ## Tema principal:
 
-Metropolis-Hasting
+Metropolis-Hasting.
 
 ## Resumen:
 
