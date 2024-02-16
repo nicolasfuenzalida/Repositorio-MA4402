@@ -8,7 +8,7 @@ A. Kolm.
 
 ## Tema principal:
 
-4.4. MCMC y estadística Bayesiana.
+MCMC y estadística Bayesiana.
 
 ## Resumen:
 
