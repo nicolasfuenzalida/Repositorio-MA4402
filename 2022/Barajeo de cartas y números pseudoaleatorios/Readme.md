@@ -1,4 +1,4 @@
-# Simulacion del Fenomeno de cutoff en Cadenas de Markov
+# Simulación del Fenómeno de cutoff en Cadenas de Markov
 
 ## Integrantes:
 
