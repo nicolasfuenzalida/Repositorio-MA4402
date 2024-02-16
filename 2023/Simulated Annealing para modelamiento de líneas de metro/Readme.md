@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Martín Sepúlveda
+Martín Sepúlveda.
 
-Lucas Villagrán
+Lucas Villagrán.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
