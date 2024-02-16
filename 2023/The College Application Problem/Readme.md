@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Cristóbal Godoy
+Cristóbal Godoy.
 
-Fraick Reyes
+Fraick Reyes.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
