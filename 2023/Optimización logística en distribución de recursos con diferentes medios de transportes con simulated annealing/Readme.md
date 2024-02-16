@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Joao Lisboa
+Joao Lisboa.
 
-Ian Rivera
+Ian Rivera.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
