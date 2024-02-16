@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Rodrigo Altamirano
+Rodrigo Altamirano.
 
-Gonzalo Ovalle
+Gonzalo Ovalle.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
