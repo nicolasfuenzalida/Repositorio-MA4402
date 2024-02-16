@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Nicolás Fuenzalida
+Nicolás Fuenzalida.
 
-Sebastián Lemus
+Sebastián Lemus.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
