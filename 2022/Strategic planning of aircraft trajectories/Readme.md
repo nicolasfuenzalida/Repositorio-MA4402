@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Catalina Lizana
+Catalina Lizana.
 
-Fabián A. Ulloa
+Fabián A. Ulloa.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
