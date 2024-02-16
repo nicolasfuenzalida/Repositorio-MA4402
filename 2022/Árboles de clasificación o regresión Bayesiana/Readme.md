@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Jorge Sossa
+Jorge Sossa.
 
-Gary Vidal
+Gary Vidal.
 
 ## Tema principal:
 
-MCMC y estadística Bayesiana
+MCMC y estadística Bayesiana.
 
 ## Resumen:
 
