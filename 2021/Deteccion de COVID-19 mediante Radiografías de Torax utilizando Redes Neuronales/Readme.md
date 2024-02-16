@@ -2,26 +2,19 @@
 
 ## Integrantes:
 
-Javier Santidrián
+Javier Santidrián.
 
-Patricio Yañez
+Patricio Yañez.
 
 ## Tema principal:
 
-Machine learning/Redes neuronales
+Machine learning/Redes neuronales.
 
 ## Resumen:
 
-La pandemia SARS-COV2 corresponde a una enfermedad
-causada por COVID-19, un virus perteneciente a la familia
-de los coronavirus. La radiología se caracteriza por el directo reconocimiento de patrones de imágenes médicas, la
-cual puede ser utilizada para detectar COVID-19.
+La pandemia SARS-COV2 corresponde a una enfermedad causada por COVID-19, un virus perteneciente a la familia de los coronavirus. La radiología se caracteriza por el directo reconocimiento de patrones de imágenes médicas, la cual puede ser utilizada para detectar COVID-19. 
 
-De este modo, el siguiente trabajo intenta testear modelos
-de redes neuronales usadas para clasificación de imágenes
-médicas, que posibilite la detección automática de neumonía
-en RX de tórax en formato DICOM, incluyendo aquellas
-por COVID-19.
+De este modo, el siguiente trabajo intenta testear modelos de redes neuronales usadas para clasificación de imágenes médicas, que posibilite la detección automática de neumonía en RX de tórax en formato DICOM, incluyendo aquellas por COVID-19.
 
 ## Referencias:
 
