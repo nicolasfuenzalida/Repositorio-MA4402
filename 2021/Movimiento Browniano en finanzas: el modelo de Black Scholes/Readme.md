@@ -8,7 +8,7 @@ Martín Didyk B.
 
 ## Tema principal:
 
-Ecuaciones Diferenciales Estocásticas
+Ecuaciones Diferenciales Estocásticas.
 
 ## Resumen:
 
