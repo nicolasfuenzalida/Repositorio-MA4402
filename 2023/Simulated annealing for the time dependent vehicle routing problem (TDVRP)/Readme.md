@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Millaray Díaz Araujo
+Millaray Díaz Araujo.
 
-Vicente Escobar Martínez
+Vicente Escobar Martínez.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
