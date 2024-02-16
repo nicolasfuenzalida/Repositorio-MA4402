@@ -6,7 +6,7 @@ Axel Alvarez V.
 
 ## Tema principal:
 
-Métodos de Monte Carlo
+Métodos de Monte Carlo.
 
 ## Resumen:
 
