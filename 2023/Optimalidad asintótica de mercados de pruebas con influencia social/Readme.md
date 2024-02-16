@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-José Martinez
+José Martinez.
 
-Rodrigo Montecinos
+Rodrigo Montecinos.
 
 ## Tema principal:
 
-Aplicación de MCMC: simulated annealing
+Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
