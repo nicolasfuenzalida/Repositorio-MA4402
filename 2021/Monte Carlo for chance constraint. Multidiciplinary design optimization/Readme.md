@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Juan Cuevas
+Juan Cuevas.
 
-Manuel Torres
+Manuel Torres.
 
 ## Tema principal:
 
-Metodos de Monte Carlo
+Métodos de Monte Carlo.
 
 ## Resumen:
 
@@ -26,13 +26,10 @@ P (−v(x, ξ) ≤ 0) ≥ α
 
 x1, x2 ≥ 0,
 
-donde h1, h2 son ecuaciones modeladas por diferentes disciplinas y ξ = (ξ1, ξ2) corresponde a una distribución
-Gaussiana multivariada tal que E(ξ) = (1, 1) y Var(ξ) = I (la matriz identidad). Las cantidades u(x, ξ) y v(x, ξ)
-son llamadas variables de estados. El nivel de probabilidad es α = 0.9987. El objetivo es obtener un óptimo
-implementando los métodos de Monte-Carlo para trabajar las restricciones probabilísticas.
+donde h1, h2 son ecuaciones modeladas por diferentes disciplinas y ξ = (ξ1, ξ2) corresponde a una distribución Gaussiana multivariada tal que E(ξ) = (1, 1) y Var(ξ) = I (la matriz identidad). Las cantidades u(x, ξ) y v(x, ξ) son llamadas variables de estados. El nivel de probabilidad es α = 0.9987. El objetivo es obtener un óptimo implementando los métodos de Monte-Carlo para trabajar las restricciones probabilísticas.
+
 ## Referencias:
 
-[1] Chiralaksanakul, A., & Mahadevan, S. (2007). Decoupled approach to multidisciplinary design optimization under uncertainty. Optimi-
-zation and Engineering, 8(1).
+[1] Chiralaksanakul, A., & Mahadevan, S. (2007). Decoupled approach to multidisciplinary design optimization under uncertainty. Optimization and Engineering, 8(1).
 
 [2] Cools, R. Advances in multidimensional integration. Journal of computational and applied mathematics 149, 1 (2002).
