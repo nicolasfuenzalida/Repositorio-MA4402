@@ -12,9 +12,7 @@ Metropolis-Hasting.
 
 ## Resumen:
 
-El IvGFF “integer value Gaussian free field” también conocido como “discrete Gaussian free field” es un modelo de física estadística similar al modelo de Ising visto en clase, nos ubicamos en una grilla 2-dimensional y cada molécula tiene una valor
-asociado que puede ser cualquier valor entero, a diferencia del modelo de Ising donde cada punto era 1 o -1, y al igual
-que en el caso de Ising en este modelo existe una transición de fase del primer orden. El objetivo será aproximar numéricamente el valor de la temperatura critica para este caso, esto se realizará mediante M.C.M.C.
+El IvGFF “integer value Gaussian free field” también conocido como “discrete Gaussian free field” es un modelo de física estadística similar al modelo de Ising visto en clase, nos ubicamos en una grilla 2-dimensional y cada molécula tiene una valor asociado que puede ser cualquier valor entero, a diferencia del modelo de Ising donde cada punto era 1 o -1, y al igual que en el caso de Ising en este modelo existe una transición de fase del primer orden. El objetivo será aproximar muméricamente el valor de la temperatura critica para este caso, esto se realizará mediante M.C.M.C.
 
 ## Referencias:
 
