@@ -2,13 +2,13 @@
 
 ## Integrantes:
 
-Karim Saud
+Karim Saud.
 
-Benjamín Tardy
+Benjamín Tardy.
 
 ## Tema principal:
 
-Movimiento Browniano y difusiones
+Movimiento Browniano y difusiones.
 
 ## Resumen:
 
