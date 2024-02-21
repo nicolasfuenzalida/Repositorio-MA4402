@@ -18,6 +18,6 @@ El modelo de Black-Scholes es fundamental en finanzas para calcular el precio de
 
 [1] Manafian, J. & Paknezhad, M.. (2017, diciembre). Analytical solutions for the Black-Scholes equation. Applications and Applied Mathematics, 12, pp.843-852.
 
-[2] Black-Scholes model. (s. f.). Wikipedia. Recuperado 20 de diciembre de 2021, de https://en.wikipedia.org/wiki/Black?Scholes_model
+[2] Black-Scholes model. (s. f.). Wikipedia. Recuperado 20 de diciembre de 2021, de https://en.wikipedia.org/wiki/Black-Scholes_model
 
 [3] Ermogenous, A.. (2006). Brownian Motion and Its Applications In The Stock Market. Recuperado 20 de diciembre de 2021, de University of Dayton. Sitio web: https://ecommons.udayton.edu/cgi/viewcontent.cgi?article=1010&context=mth_epumd
