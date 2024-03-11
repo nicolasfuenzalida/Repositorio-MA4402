@@ -12,7 +12,7 @@ Aplicación de MCMC: Simulated Annealing.
 
 ## Resumen:
 
-Basados en los estudios de Carter and Magoc [1] y de Dimovski and Gligoroski [2], en este proyecto se busca estudiar la efectividad del metodo Simulated Anneling a la hora de buscar la clave con la que un texto fue cifrado. En particular, nos centraremos en 2 cifrados, el de substitucion monoalfabetica, que consiste en una biyeccion entre el alfabeto y si mismo, y en el cifrado de transposicion, el cual consiste en separar el texto en bloques de tamaño P , y aplicar a cada estos una permutacion de sus elementos.
+Basados en los estudios de Carter and Magoc [1] y de Dimovski and Gligoroski [2], en este proyecto se busca estudiar la efectividad del metodo Simulated Anneling a la hora de buscar la clave con la que un texto fue cifrado. En particular, nos centraremos en 2 cifrados, el de substitución monoalfabética, que consiste en una biyección entre el alfabeto y sí mismo, y en el cifrado de transposición, el cual consiste en separar el texto en bloques de tamaño P, y aplicar a cada estos una permutación de sus elementos.
 
 ## Referencias:
 
