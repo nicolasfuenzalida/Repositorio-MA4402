@@ -1,4 +1,10 @@
-# Proyecto-Final-Simulacion-Estocastica
+# Proyecto importante
+
+Este proyecto fue escogido para que cualquier usuario pueda realizar modificaciones facilmente. En la carpeta, los códigos que comiencen con "Ejecutable" son una versión destinada a que se le hagan modificaciones de parámetros. Para esto, ir a las celdas que tengan comentado lo siguiente:
+
+"# Parámetros a cambiar."
+
+# Proyecto Final Simulación Estocástica
 El problema de programación de trabajos, o JSP, es un problema muy estudiado en optimización combinatorial. Se abordará JSP con simulated annealing (SA) y el algoritmo genético (GA). 
 
 plot_gantt_chart(lista_instancias, maquinas): función para poder visualizar los horarios, dando de input la lista de instancias y las máquinas, es llamado Gantt Chart.
