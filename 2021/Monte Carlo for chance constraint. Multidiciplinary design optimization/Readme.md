@@ -14,19 +14,20 @@ Métodos de Monte Carlo.
 
 Resumen: Estudiaremos problemas de optimización del siguiente estilo:
 
-(1) min −x2
+$\begin{equation}
+\begin{aligned}
+& \underset{x}{\text{min}}
+& & -x_2 \\
+& \text{s.a.}
+& & h_1(x, \xi, u, v) = \xi_2 x_1 + 2x_2 - u + v = 0, \\
+&&& h_2(x, \xi, u, v) = 3x_1 - u - v = 0, \\
+&&& \mathbb{P}(-\xi_1 + u(x, \xi) - \frac{1}{2} (\xi_2 + 1)x_1 \leq 0) \geq \alpha, \\
+&&& \mathbb{P}(-v(x, \xi) \leq 0) \geq \alpha, \\
+&&& x_1, x_2 \geq 0.
+\end{aligned}
+\end{equation}$
 
-s.a. h1(x, ξ, u, v) = ξ2x1 + 2x2 − u + v = 0
-
-h2(x, ξ, u, v) = 3x1 − u − v = 0
-
-P (−ξ1 + u(x, ξ) − 0.5(ξ2 + 1)x1 ≤ 0) ≥ α
-
-P (−v(x, ξ) ≤ 0) ≥ α
-
-x1, x2 ≥ 0,
-
-donde h1, h2 son ecuaciones modeladas por diferentes disciplinas y ξ = (ξ1, ξ2) corresponde a una distribución Gaussiana multivariada tal que E(ξ) = (1, 1) y Var(ξ) = I (la matriz identidad). Las cantidades u(x, ξ) y v(x, ξ) son llamadas variables de estados. El nivel de probabilidad es α = 0.9987. El objetivo es obtener un óptimo implementando los métodos de Monte-Carlo para trabajar las restricciones probabilísticas.
+dDonde $h_1$, $h_2$ son ecuaciones modeladas por diferentes disciplinas y $\xi = (\xi_1,\xi_2)$ corresponde a una distribución Gaussiana multivariada tal que $\mathbb{E}(\xi)=(1,1)$ y $\mathbb{V}\text{ar}(\xi) = I$ (la matriz identidad). Las cantidades $u(x,\xi)$ y $v(x,\xi)$ son llamadas variables de estados. El nivel de probabilidad es $\alpha = 0.9987$. El objetivo es obtener un óptimo implementando los métodos de Monte-Carlo para trabajar las restricciones probabilísticas.
 
 ## Referencias:
 
