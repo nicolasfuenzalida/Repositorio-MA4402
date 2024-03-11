@@ -14,7 +14,7 @@ Métodos de Monte Carlo.
 
 Resumen: Estudiaremos problemas de optimización del siguiente estilo:
 
-$\begin{equation}
+\begin{equation}
 \begin{aligned}
 & \underset{x}{\text{min}}
 & & -x_2 \\
@@ -25,7 +25,7 @@ $\begin{equation}
 &&& \mathbb{P}(-v(x, \xi) \leq 0) \geq \alpha, \\
 &&& x_1, x_2 \geq 0.
 \end{aligned}
-\end{equation}$
+\end{equation}
 
 dDonde $h_1$, $h_2$ son ecuaciones modeladas por diferentes disciplinas y $\xi = (\xi_1,\xi_2)$ corresponde a una distribución Gaussiana multivariada tal que $\mathbb{E}(\xi)=(1,1)$ y $\mathbb{V}\text{ar}(\xi) = I$ (la matriz identidad). Las cantidades $u(x,\xi)$ y $v(x,\xi)$ son llamadas variables de estados. El nivel de probabilidad es $\alpha = 0.9987$. El objetivo es obtener un óptimo implementando los métodos de Monte-Carlo para trabajar las restricciones probabilísticas.
 
