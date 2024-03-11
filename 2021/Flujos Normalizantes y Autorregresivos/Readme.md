@@ -12,7 +12,9 @@ Algoritmos estocásticos/otros.
 
 ## Resumen:
 
-Los Flujos Normalizantes (Normalizing Flows, en inglés) [1] son una forma de construir densidades de probabilidad bastante flexibles sobre variables aleatorias continuas. En concreto, dadas una variable aleatoria y ∈ Rn y x una variable aleatoria ”simple”, buscamos encontrar una transformación T : Rn → Rn tal que: T(x) ∼ py, x ∼ px.
+Los Flujos Normalizantes (Normalizing Flows, en inglés) [1] son una forma de construir densidades de probabilidad bastante flexibles sobre variables aleatorias continuas. En concreto, dadas una variable aleatoria $y \in \mathbb{R}^n$ y $x$ una variable aleatoria ”simple”, buscamos encontrar una transformación $T:\mathbb{R}^n \to \mathbb{R}^n$ tal que:
+
+$$T(x) \sim p_y, x \sim p_x.$$
 
 Tres casos particulares de flujos autorregresivos son considerados: Afines, Splines (polinomiales o racionales por trozos) y Splines con acoplamiento [3].
 
