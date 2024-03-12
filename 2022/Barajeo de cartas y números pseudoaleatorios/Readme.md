@@ -12,7 +12,7 @@ Cadenas de Markov.
 
 ## Resumen:
 
-Consideremos una cadena de Markov $(X_n)_{n\geq 0}$ finita con matriz de transicion $P$. Es conocido que si $P$ es irreducible, aperiódica y con distribución invariante $\pi$, entonces $||P_{\mu}^n − \pi||_{TV} \to 0$ cuando $n \to \infty$. Es importante tener una noción de qué tan rápido ocurre esta convergencia. En algunos casos, la cantidad $||P_{\mu}^n −\pi||_{TV}$ se mantiene cercana a 1 por un tiempo, para luego converger rapidamente a 0. A este fenómeno se le conoce como Cutoff y es el foco de este proyecto.
+Consideremos una cadena de Markov $(X_n)_{n \geq 0}$ finita con matriz de transicion $P$. Es conocido que si $P$ es irreducible, aperiódica y con distribución invariante $\pi$, entonces $||P_{\mu}^{n} − \pi||_{TV} \to 0$ cuando $n \to \infty$. Es importante tener una noción de qué tan rápido ocurre esta convergencia. En algunos casos, la cantidad $||P_{\mu}^n −\pi||_{TV}$ se mantiene cercana a 1 por un tiempo, para luego converger rapidamente a 0. A este fenómeno se le conoce como Cutoff y es el foco de este proyecto.
 
 ## Referencias:
 
