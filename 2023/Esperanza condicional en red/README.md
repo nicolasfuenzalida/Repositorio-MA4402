@@ -10,7 +10,7 @@ Algoritmos estocásticos en aprendizaje de máquinas: Algoritmo de gradiente est
 
 ## Resumen:
 
-Dadas X, Y variables aleatorias reales en $(\Omega, \mathcal{F}, \mathbb{P})$, se sabe que la esperanza condicional $\mathbb{E}(Y|X)$ es la proyección ortogonal de $Y$ en $(\Omega, \sigma(X), \mathbb{P})$, por lo tanto, es la función medible de $X$ más cercana a $Y$ en $L^2$. Es decir, $f = \mathbb{E}(Y|X)$ es la única solución del problema
+Dadas $X$, $Y$ variables aleatorias reales en $(\Omega, \mathcal{F}, \mathbb{P})$, se sabe que la esperanza condicional $\mathbb{E}(Y|X)$ es la proyección ortogonal de $Y$ en $(\Omega, \sigma(X), \mathbb{P})$, por lo tanto, es la función medible de $X$ más cercana a $Y$ en $L^2$. Es decir, $f = \mathbb{E}(Y|X)$ es la única solución del problema
 
 $$\begin{equation}
 \begin{aligned}
