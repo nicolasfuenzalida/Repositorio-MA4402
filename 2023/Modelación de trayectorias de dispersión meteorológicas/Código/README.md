@@ -1,3 +1,9 @@
+# Proyecto importante
+
+Este proyecto fue escogido para que cualquier usuario pueda realizar modificaciones facilmente. En la carpeta, los códigos que comiencen con "Ejecutable" son una versión destinada a que se le hagan modificaciones de parámetros. Para esto, ir a las celdas que tengan comentado lo siguiente:
+
+"# Se puede cambiar"
+
 # Abstract
 
 Inspirados en la tesis de Nurul Huda [1] se estudiará numéricametne la ecuación diferencial estocástica "Random Flight Model" (RFM) en el eje vertical modificada con el lema de Ito y normalizando algunos parámetros con tal de tener una implementación sencilla.
