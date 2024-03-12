@@ -12,7 +12,7 @@ Aplicación de MCMC: simulated annealing.
 
 ## Resumen:
 
-Se dirá que H, subgrafo de G es clique de tamaño k ssi H es un grafo completo de k vértices, en tal caso también se dice que G posee un clique de tamaño k. El problema de decisión, k-CLIQUE consiste en verificar si un grafo posee un k-clique. El número de clique de un grafo G, ω(G) se define como el k ∈ N más grande tal que G tiene un clique de tamaño k. El problema de maximización, MAXCLIQUE, o alternativamente, el problema de optimización de CLIQUE, como el problema de encontrar el mayor k ∈ N tal que G tenga un k-clique. Se implementa el algoritmo de Simulated Annealing descrito en [1].
+Se dirá que $H$, subgrafo de $G$ es clique de tamaño $k$ ssi $H$ es un grafo completo de $k$ vértices, en tal caso también se dice que $G$ posee un clique de tamaño $k$. El problema de decisión, $k$-CLIQUE consiste en verificar si un grafo posee un $k$-clique. El número de clique de un grafo $G$, $\omega(G)$ se define como el $k \in \mathbb{N}$ más grande tal que $G$ tiene un clique de tamaño $k$. El problema de maximización, MAXCLIQUE, o alternativamente, el problema de optimización de CLIQUE, como el problema de encontrar el mayor $k \in \mathbb{N}$ tal que $G$ tenga un $k$-clique. Se implementa el algoritmo de Simulated Annealing descrito en [1].
 
 ## Referencias:
 
