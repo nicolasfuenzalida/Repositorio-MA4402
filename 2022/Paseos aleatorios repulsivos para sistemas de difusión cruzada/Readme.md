@@ -12,7 +12,7 @@ Cadenas de markov.
 
 ## Resumen:
 
-Buscamos modelar la interaccion entre dos especies animales que conviven en un determinado ecosistema espacio-temporal. Para esto consideramos funciones u y v que representan, para una variable espacial (Rn) y una temporal (R+), la densidad de población de cada especie en ese lugar y tiempo. Se propone una implementacion del proceso de Markov con el objetivo de simular poblaciones sujetas a distintos parametros de difusion d y difusion cruzada a. Esto implica una implementación basada en los vecinos de los estados actuales para reducir la cantidad de tasas calculadas. Ademas, usando esta implementacion, se logra, a traves de la funcion inversa generalizada, modelar los saltos de individuos a través del toro.
+Buscamos modelar la interaccion entre dos especies animales que conviven en un determinado ecosistema espacio-temporal. Para esto consideramos funciones $u$ y $v$ que representan, para una variable espacial $(R^n)$ y una temporal $(R_+)$, la densidad de población de cada especie en ese lugar y tiempo. Se propone una implementación del proceso de Markov con el objetivo de simular poblaciones sujetas a distintos parámetros de difusion $d$ y difusion cruzada $a$. Esto implica una implementación basada en los vecinos de los estados actuales para reducir la cantidad de tasas calculadas. Además, usando esta implementación, se logra, a través de la función inversa generalizada, modelar los saltos de individuos a través del toro.
 
 ## Referencias:
 
