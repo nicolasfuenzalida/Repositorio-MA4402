@@ -1,0 +1,4 @@
+Bibliografía utilizada en el desarrollo del proyecto:
+1. Géron, A. (2019). Hands-on machine learning with SciKit-Learn, KeRas, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems. O’Reilly.
+2. Das, S. K., Das, S. P., Dey, N., \& Hassanien, A. (2020). Machine learning Algorithms for industrial applications. Springer.
+3. Ekrem Ozer, Meghan O'Connell, Wendy Kan. (2015). Restaurant Revenue Prediction. Kaggle. https://kaggle.com/competitions/restaurant-revenue-prediction
