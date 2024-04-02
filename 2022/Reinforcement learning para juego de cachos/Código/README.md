@@ -3,4 +3,4 @@ Implementación de Algoritmos de Reinforcement Learning para aprender a jugar Ca
 
 Enlace para descargar todo el material:
 
-https://drive.google.com/drive/folders/17FqPs2j5WzG2oRokASpQCPDecoR2IVvn?usp=sharing
+https://drive.google.com/drive/folders/1op9XVNy13C-Y7LT_7I6U5aS9SrIBgU9a?usp=sharing
