@@ -2,6 +2,8 @@
 
 Implementación de Algoritmos de Reinforcement Learning para aprender a jugar Cachos/Dudo.
 
+Se buscará usar Reinforcement Learning (con métodos de MC/Sarsa/Q-Learning) para implementar una IA que aprenda a jugar Cachos/Dudo (juego chileno de dados). En particular, esto se relaciona con los contenidos del curso en la medida de que es un método estocástico aplicado a IA.
+
 Un posible error que puede ocurrir al ejecutar los notebooks es que el código se esté ejecutando con la CPU y no con la GPU. Esto puede hacer que el kernel se reinicie por el exceso de espacio ocupado.
 
 Damos las siguientes recomendaciones para ejecutar el proyecto:
