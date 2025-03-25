@@ -1,5 +1,5 @@
 # Repositorio-MA4402
-Repositorio de los proyectos finales del curso Simulación Estocástica: Teoría y Laboratorio.
+Repositorio de los proyectos finales del curso Simulación Estocástica: Teoría y Laboratorio. https://labs.dim.uchile.cl/simestoc/
 
 # Proyectos importantes
 
